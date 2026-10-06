@@ -1,0 +1,8 @@
+.env
+.venv/
+data/
+arena_utils.py
+search-arena/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
