@@ -21,6 +21,9 @@
 
 Overall, an LLM judge wouldn't fix Search Arena's attribution problem. It might be a bit better at telling supporting citations from irrelevant ones, but it picks up a new blind spot for contradicting ones.
 
+## Limitations
+
+This uses one judge model (Haiku 4.5) without temperature control, and the judge sees reference URLs but not page contents. The citation labels come from the authors' Gemini pipeline rather than human annotation, so the comparison is against another model's judgments of attribution.
 
 ## Credit
 
